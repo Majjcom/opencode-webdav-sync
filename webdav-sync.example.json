@@ -1,0 +1,15 @@
+{
+  "url": "https://dav.example.com/remote.php/dav/files/your-user/",
+  "username": "your-user",
+  "password": "your-password-or-app-password",
+  "root": "opencode-backups",
+  "device": "my-computer",
+  "timeoutMs": 30000,
+  "maxBackupBytes": 67108864,
+  "sanitize": false,
+  "projects": ["my-app", "notes"],
+  "workspaces": [
+    { "directory": "D:\\Code\\my-app", "project": "my-app" },
+    { "directory": "/home/me/code/my-app", "project": "my-app" }
+  ]
+}
